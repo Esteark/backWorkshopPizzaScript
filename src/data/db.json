@@ -1,0 +1,586 @@
+{
+  "usuarios": [
+    {
+      "id": 0,
+      "nomUser": "Angie",
+      "email": "angielamaslinda@gmail.com",
+      "passWord": "123",
+      "img": "https://p4.wallpaperbetter.com/wallpaper/778/599/670/women-model-brunette-long-hair-wallpaper-preview.jpg"
+    },
+    {
+      "nomUser": "Esteban",
+      "email": "eardila1409@gmail.com",
+      "passWord": "Esteban1409.",
+      "img": "https://images.indianexpress.com/2022/04/GettyImages-men-health-1200.jpg",
+      "id": 1
+    },
+    {
+      "nomUser": "Andres",
+      "email": "andres@gmail.com",
+      "passWord": "Esteban1409.",
+      "img": "https://m.media-amazon.com/images/M/MV5BODI0MTYzNTIxNl5BMl5BanBnXkFtZTcwNjg2Nzc0NA@@._V1_.jpg",
+      "id": 2
+    }
+  ],
+  "ofertas": [
+    {
+      "id": 0,
+      "nameOferta": "Cupón para frontEnds",
+      "porcentaje": 45
+    },
+    {
+      "id": 1,
+      "nameOferta": "Cupón hamburguesa",
+      "porcentaje": 30
+    },
+    {
+      "id": 2,
+      "nameOferta": "Cupón comida voladora",
+      "porcentaje": 35
+    },
+    {
+      "id": 3,
+      "nameOferta": "Cupón de la casa",
+      "porcentaje": 50
+    },
+    {
+      "id": 4,
+      "nameOferta": "Cupón más pizza",
+      "porcentaje": 20
+    },
+    {
+      "id": 5,
+      "nameOferta": "Cupón otra véz",
+      "porcentaje": 60
+    },
+    {
+      "id": 6,
+      "nameOferta": "Cupón sencillo",
+      "porcentaje": 20
+    }
+  ],
+  "productos": [
+    {
+      "id": 0,
+      "type": 0,
+      "name": "Pizza a la carlo",
+      "price": 15000,
+      "reviews": 3,
+      "description": "Pizza Plato de origen italiano, especie de torta elaborada a partir de una masa hecha con harina de trigo, levadura, aceite de oliva, agua, sal y azúcar",
+      "img": [
+        "https://cdn.colombia.com/gastronomia/2011/08/25/pizza-margarita-3684.jpg",
+        "https://www.saborusa.com/ni/wp-content/uploads/sites/19/2019/11/Animate-a-disfrutar-una-deliciosa-pizza-de-salchicha-Foto-destacada.png",
+        "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Me parecio una pizza una nota",
+          "starts": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Pizza a la Alfredo",
+      "type": 0,
+      "price": 20000,
+      "reviews": 4,
+      "description": "La pizza a la alfredo es una pizza que contiene una base de queso fundido y tomate que se aliñan con jamón y hojas verdes.​​ ",
+      "img": [
+        "https://static.eldiario.es/clip/512ea43a-99c2-42a9-b73b-645e448a7c0f_16-9-discover-aspect-ratio_default_0.jpg",
+        "https://images.hola.com/imagenes/cocina/recetas/20220208204252/pizza-pepperoni-mozzarella/1-48-890/pepperoni-pizza-abob-t.jpg",
+        "https://radionacional-v3.s3.amazonaws.com/s3fs-public/styles/portadas_relaciona_4_3/public/node/article/field_image/COLP_EXT_111040.jpg?h=3e099002&itok=CDYT_h3S"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Me parecio una pizza una Lokura",
+          "starts": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hamburguesa Especial",
+      "type": 1,
+      "price": 12000,
+      "reviews": 4,
+      "description": "La hamburguesa es un producto cárnico, elaborado a partir de carne cortada en cubos, molida y mezclada con otros ingredientes, como condimentos y aditivos alimentarios",
+      "img": [
+        "https://assets.unileversolutions.com/recipes-v2/210995.jpg",
+        "https://cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/LGWVXSGG7JBEDJSAZR5DDQZK64.jpg",
+        "https://recetasdedon.com.mx/wp-content/uploads/2022/06/hamburguesas-historia-caracteristicas-preparacion-y-tipos-640x422.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": " una Lokura",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hamburguesa Doble",
+      "type": 1,
+      "price": 13000,
+      "reviews": 4,
+      "description": "Deliciosa hamburguesa de 200 gr en carne de res y pollo, compuesta con queso fundido, lechuga fresca, pepinillos, cebolla en aros, tomate y la salsa especial Kétchup",
+      "img": [
+        "https://d2yoo3qu6vrk5d.cloudfront.net/images/20221024144136/festival-de-hamburguesas-en-bogota-cali-y-mas-cuando-es-y-precios-de-la-comida.jpg",
+        "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/4e4293857c03d819e4ae51de1e86d66a.jpg",
+        "https://assets.unileversolutions.com/recipes-v2/232055.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": " una Lokura",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Papas gourmet",
+      "type": 2,
+      "price": 14000,
+      "reviews": 4,
+      "description": "Cebollín o cebolla sofrita · Ciboulette picado · Salsa de ajo o salsa tártara · Queso rallado · Mayonesa · Tomate troceado ·",
+      "img": [
+        "https://cdn.colombia.com/sdi/2022/04/28/salchipapas-receta-1022879.jpg",
+        "https://cdn.colombia.com/gastronomia/2017/01/25/salchipapas-1703.gif",
+        "https://img.freepik.com/fotos-premium/salchipapa-comida-callejera-tradicional-salchipapas-peru-salchichas-papas-fritas_492434-134.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": " Deliciosas papas siempre las consumo",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Papas Tradicionales",
+      "type": 2,
+      "price": 16000,
+      "reviews": 4,
+      "description": "Plato de papas y salchichas fritas, que se puede acompañar con mayonesa, salsa de tomate u otro tipo de salsas.",
+      "img": [
+        "https://imag.bonviveur.com/emplatado-final-de-las-salchipapas.jpg",
+        "https://i2.wp.com/chilipeppermadness.com/wp-content/uploads/2022/04/Salchipapas-SQ.jpg",
+        "https://t2.uc.ltmcdn.com/es/posts/3/7/8/como_hacer_salchipapas_39873_600.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Son excelentes",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Pizza Veggie",
+      "type": 0,
+      "price": 12000,
+      "reviews": 4,
+      "description": "La pizza vegetariana cuenta con los mismos quesos, condimentos y salsas que una pizza normal, pero la carne se reemplaza con vegetales o sustitutos de la carne",
+      "img": [
+        "https://www.eatbetter.de/sites/eatbetter.de/files/styles/full_width_tablet_4_3/public/2020-04/Vegetarische_Pizza_mit_Auberginen_und_Zucchini_62169.jpg?h=4521fff0&itok=I2hGmFyn",
+        "https://media-cdn.tripadvisor.com/media/photo-s/0e/e9/15/9a/vegi-pizza.jpg",
+        "https://i2-prod.mirror.co.uk/incoming/article26706373.ece/ALTERNATES/s1200c/0_dominos-veggie-pesto-pizza.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Muy buena opción para ser saludables",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pizza Fit",
+      "type": 0,
+      "price": 18000,
+      "reviews": 4,
+      "description": "la Pizza fit es excelente para la salud , tiene todos los complementos adecuados para la nutrición",
+      "img": [
+        "https://i.blogs.es/fff4ca/pizzas/1366_2000.jpg",
+        "https://cdn0.recetasgratis.net/es/posts/1/9/3/pizza_casera_31391_600_square.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Eataly_Las_Vegas_-_Feb_2019_-_Sarah_Stierch_12.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Muy buena opción para ser saludables",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Pizza Hamburguesa",
+      "type": 1,
+      "price": 23000,
+      "reviews": 7,
+      "description": "Lo mejor de una hamburguesa con carne quedo y vegetales, abrazado del sabor y el atractivo de la pizza en el mismo plato.",
+      "img": [
+        "https://www.naturalherbal.es/wp-content/uploads/2018/12/pizza-o-hamburguesa.jpg",
+        "data:image/jpeg;base64,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",
+        "https://qph.cf2.quoracdn.net/main-qimg-76b9662fc3822e753082fa8dcbd2790f-lq"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pizza Super Estofada",
+      "type": 1,
+      "price": 18000,
+      "reviews": 5,
+      "description": "Pizza super estofada rellena de queso y los mejores condimentos, con el doble de queso y el doble de sabor en cada revanada.",
+      "img": [
+        "https://peoplepizzas.com/app/img_productos/43.jpg",
+        "data:image/jpeg;base64,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",
+        "https://www.mollepizza.com/wp-content/uploads/2019/03/BLOG3_TOP5.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pizza con Champiñones",
+      "type": 1,
+      "price": 20000,
+      "reviews": 2,
+      "description": "Date un viaje de sabor con esta pizza lleda de queso y condimentada con ricos y frescos champiñones.",
+      "img": [
+        "https://cdn7.kiwilimon.com/recetaimagen/38841/50030.jpg",
+        "https://unareceta.com/wp-content/uploads/2014/05/pizza-de-champin%CC%83ones.jpg",
+        "https://i.ytimg.com/vi/2L0TIEPd9mA/maxresdefault.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Pizza Mexicana",
+      "type": 1,
+      "price": 12000,
+      "reviews": 1,
+      "description": "Todo lo que puedes esperar del exquisito sabor de una pizza con el rico sabor del picante natural de los mejores chiles mexicanos.",
+      "img": [
+        "https://thumbs.dreamstime.com/z/la-pizza-con-pimienta-de-los-salchichones-del-salami-y-chiles-rojos-miente-en-una-tabla-tabl%C3%B3n-al-lado-un-manojo-tomates-cuadrado-150456400.jpg",
+        "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2022/08/pizzaalamexicana.jpg",
+        "https://www.gastrolabweb.com/u/fotografias/m/2021/2/9/f1280x720-8328_140003_5050.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    },
+
+    {
+      "id": 12,
+      "name": "hamburguesa de la casa",
+      "type": 0,
+      "price": 100000,
+      "reviews": 20,
+      "description": "Una hamburguesa es un sándwich hecho a base de carne molida o de origen vegetal,​ ",
+      "img": [
+        "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/4e4293857c03d819e4ae51de1e86d66a.jpg",
+        "https://www.laylita.com/recetas/wp-content/uploads/2021/08/Hamburguesa-de-patacon-receta-500x375.jpg",
+        "https://images.ctfassets.net/n7hs0hadu6ro/3cus21kR8h5Oytx2BVPAZY/d13d610a27ade6faaccb0b801da96e5d/hamburguesas_a_domicilio.png?w=1024&h=683&fl=progressive&q=50&fm=jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Pizza Kitty",
+      "type": 0,
+      "price": 100000,
+      "reviews": 20,
+      "description": "La pizza Kitty es divertida, interesante e icónica​​ ",
+      "img": [
+        "https://i.pinimg.com/originals/0f/30/37/0f3037aa1c66b5f08ae066e88703c3e5.jpg",
+        "https://cdn.shopify.com/s/files/1/0416/8083/0620/files/Hello-Kitty-Pizza---process-shot-8.jpg",
+        "https://i.pinimg.com/736x/e7/df/72/e7df72f653a31b7df236441f1cfd0a8d--pizza-art-kitty-party.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Me parecio una pizza una Lokura",
+          "starts": 4
+        }
+      ]
+    },
+
+    {
+      "id": 14,
+      "name": "Pizza Sherk",
+      "type": 0,
+      "price": 20000,
+      "reviews": 4,
+      "description": "Nunca juzgues a una pizza por su portada, lo que importa es el contenido",
+      "img": [
+        "https://media-cdn.tripadvisor.com/media/photo-p/1e/4d/cf/f4/the-masterpiece-of-a.jpg",
+        "https://i.redd.it/hbnl5hi5ait51.jpg",
+        "https://pbs.twimg.com/media/FE98KuMXIAofVjX.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Me parecio una pizza una Lokura",
+          "starts": 4
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Pizza Asustadora",
+      "type": 0,
+      "price": 20000,
+      "reviews": 4,
+      "description": "La pizza mas escalofriante de todo el valle de aburá",
+      "img": [
+        "https://t2.uc.ltmcdn.com/es/posts/1/9/5/como_hacer_una_pizza_de_halloween_51591_orig.jpg",
+        "https://placeralplato.com/files/2016/10/pizza-recetas-halloween.jpeg",
+        "https://img.freepik.com/fotos-premium/pizza-assustadora-de-halloween-decorada-com-fantasmas_82893-16715.jpg?w=2000"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Me parecio una pizza una Lokura",
+          "starts": 4
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Salchipapa extra queso",
+      "type": 1,
+      "price": 12000,
+      "reviews": 1,
+      "description": "Bandeja de salchichas y papas fritas deliciosas bañanas con una capa de queso fundido para disfrutar todo el sabor de las papas y las salchichas justo al cremoso sabor del mejor queso.",
+      "img": [
+        "https://i.ytimg.com/vi/oX39ky_wAhQ/maxresdefault.jpg",
+        "https://img-global.cpcdn.com/recipes/0cc04e25cde3c0b8/400x400cq70/photo.jpg",
+        "https://lasalchipaperia.com.co/pperro/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-14-at-11.22.25-PM-247x296.jpeg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Pizza Harry Potter",
+      "type": 0,
+      "price": 20000,
+      "reviews": 4,
+      "description": "La pizza más mágica de nuestra página",
+      "img": [
+        "https://vanguardia.com.mx/binrepository/519x648/0c0/0d0/down-right/11604/QPWY/55007669161-1_1-816507_20211220185200.jpg",
+        "https://live.staticflickr.com/5332/6926039294_7b022038ea_z.jpg",
+        "https://pbs.twimg.com/media/DDRIJjnWAAAUiDs.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "Me parecio una pizza una Lokura",
+          "starts": 4
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Hamgurguesa column reverse",
+      "type": 1,
+      "price": 25000,
+      "reviews": 1,
+      "description": "El más rico sabor de la hamgurguesa condimentada con vegetales y queso, pero revirtiendo la posición del pan y poniendo más carne en su lugar, para aumentar la calidad de este delicioso plato.",
+      "img": [
+        "https://cdn.upsocl.com/wp-content/uploads/2020/11/burguerking-hamburguesa-japon-carne-pan0001.jpg",
+        "https://cdn.upsocl.com/wp-content/uploads/2020/11/burguerking-hamburguesa-japon-carne-pan0003.jpg",
+        "https://cdn.upsocl.com/wp-content/uploads/2020/11/55-burguerking-hamburguesa-japon-carne-pan.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Hamburguesa halloween",
+      "type": 1,
+      "price": 25000,
+      "reviews": 1,
+      "description": "El más rico sabor de la hamgurguesa condimentada con vegetales y queso, pero revirtiendo la posición del pan y poniendo más carne en su lugar, para aumentar la calidad de este delicioso plato.",
+      "img": [
+        "https://cdn.colombia.com/gastronomia/2011/10/21/hamburguesas-terrorificas-2875.jpg",
+        "https://img.cocinarico.es/2020-10/hamburguesas-de-halloween-1.jpg",
+        "https://img-global.cpcdn.com/recipes/eec9f21200b18ba3/1200x630cq70/photo.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Papas con pollo",
+      "type": 1,
+      "price": 25000,
+      "reviews": 1,
+      "description": "Las mas deliciosas papas con el mas rico pollo",
+      "img": [
+        "http://4.bp.blogspot.com/-VFtdwvwSWbY/T4cuRkQdHrI/AAAAAAAAEUQ/am-z-pEWrF4/s1600/IMG_5478.jpg",
+        "http://4.bp.blogspot.com/-uSZ3jY57yVI/T9CA3YGI3BI/AAAAAAAAEzg/oQwbCUx_fDM/s1600/IMG_7605.jpg",
+        "https://i.ytimg.com/vi/jbecwASeHHg/maxresdefault.jpg"
+      ],
+      "comments": [
+        {
+          "idUser": 0,
+          "comment": "",
+          "starts": 3
+        }
+      ]
+    }
+  ],
+  "compras": [
+    {
+      "nomUser": "Esteban",
+      "address": "Carrera 92 #44-71, Medellín, Antioquia, Colombia",
+      "products": [
+        {
+          "id": "0",
+          "cantidad": 2
+        },
+        {
+          "id": "2",
+          "cantidad": 2
+        },
+        {
+          "id": "1",
+          "cantidad": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nomUser": "Esteban",
+      "address": "Carrera 92 #44-71, Medellín, Antioquia, Colombia",
+      "products": [
+        {
+          "id": "0",
+          "cantidad": 2
+        },
+        {
+          "id": "2",
+          "cantidad": 2
+        },
+        {
+          "id": "1",
+          "cantidad": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nomUser": "Esteban",
+      "address": "Carrera 92 #44-71, Medellín, Antioquia, Colombia",
+      "products": [
+        {
+          "id": "0",
+          "cantidad": 2
+        },
+        {
+          "id": "2",
+          "cantidad": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nomUser": "Esteban",
+      "address": "Carrera 92 #44-71, Medellín, Antioquia, Colombia",
+      "products": [
+        {
+          "id": "0",
+          "cantidad": 2
+        },
+        {
+          "id": "2",
+          "cantidad": 2
+        },
+        {
+          "id": "1",
+          "cantidad": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nomUser": "Estebna ",
+      "address": "Carrera 92 #44-71, Medellín, Antioquia, Colombia",
+      "products": [
+        {
+          "id": "4",
+          "cantidad": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nomUser": "Andres",
+      "address": "Carrera 92 #44-71, Medellín, Antioquia, Colombia",
+      "products": [
+        {
+          "id": "0",
+          "cantidad": 2
+        },
+        {
+          "id": "4",
+          "cantidad": 3
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
